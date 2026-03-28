@@ -1,0 +1,12 @@
+app:
+  symbols:
+    - symbol: BTC-USD
+      exchange: coinbase
+    - symbol: ETH-USD
+      exchange: coinbase
+    - symbol: ETH-BTC
+      exchange: coinbase
+  fetch-interval-ms: ${PRICE_FETCH_INTERVAL_MS:10000}
+  coinbase:
+    base-url: ${COINBASE_API_BASE_URL:https://api.exchange.coinbase.com}
+    timeout-ms: ${COINBASE_HTTP_TIMEOUT_MS:5000}

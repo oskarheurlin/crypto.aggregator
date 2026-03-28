@@ -1,0 +1,12 @@
+app:
+  symbols:
+    - symbol: BTC-USD
+      exchange: coinbase
+    - symbol: ETH-USD
+      exchange: coinbase
+    - symbol: ETH-BTC
+      exchange: coinbase
+  fetch-interval-ms: 999999999
+  coinbase:
+    base-url: http://localhost
+    timeout-ms: 5000
